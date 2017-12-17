@@ -1,0 +1,176 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume_ucla} % Use the custom resume.cls style
+\usepackage{verbatim}
+\usepackage[left=0.7in, top=1in, right=0.7in, bottom=0.8in]{geometry} % Document margins
+\usepackage[cmex10]{amsmath}
+
+\name{Yongming Ding} % Your name
+\address{ (+86) 180-3705-3593 \ \\ dingyongming1995@gmail.com}
+\address{Homepage: http://dmt.moe/}
+%\address{Github: https://github.com/dreamtalen/} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+ % Your phone number and email
+
+
+\begin{document}
+%---------------------------------------------------------------------------------------- 
+
+\begin{rSection}{education Experience}
+\begin{rSubsection}{Shanghai Jiao Tong University (SJTU)}{Shanghai, China}{Master of Science in Electronic Science and Technology}{Sep. 2016 -- Mar. 2019 (expected)}
+\item Major GPA: 3.86/4.00 \qquad Ranking: 8/116 \qquad $\diamond$ Overall GPA: 3.72/4.00
+\item $1^{st}$ Prize in 12th China Graduate Electronics Design Contest (Ranked $2^{nd}$ in more than 100 teams in the final)
+\end{rSubsection}
+\begin{rSubsection}{Shanghai Jiao Tong University}{Shanghai, China}{Bachelor of Science in Microelectronics}{Sep. 2012 -- Jun. 2016}
+\item Major GPA: 87.70/100 \qquad Ranking: 8/50 \qquad \ $\diamond$ Overall GPA: 86.27/100
+\item Major GPA: 89.30/100 (upper division)\ \ \;\,\qquad\quad$\diamond$ Overall GPA: 89.13/100 (upper division)
+\item Received a waiver for the National College Entrance Exam to enter SJTU, as $1^{st}$ Prize in National Olympiad in Physics (Henan Province, top 0.01$\%$)
+\item Senior skill level computer programmer (JAVA \& ARM), occupational qualification certificates, China
+\end{rSubsection}
+
+\begin{comment}
+\textbf{Shanghai Jiao Tong University (SJTU), Shanghai}
+\\\emph{Master of Science in Electronic Science and Technology} \hfill \emph{Sep. 2016 -- Mar. 2019(expected)}
+\\\bm{$\diamond$} Major GPA: 3.86/4.00 \qquad Ranking: 8/116 \qquad $\diamond$ Overall GPA: 3.72/4.00
+%\\\bm{$\diamond$} Major GPA: 3.86/4.00 \qquad \qquad \qquad \qquad \qquad \, \ \ $\diamond$ Overall GPA: 3.72/4.00
+\\\bm{$\diamond$} $1^{st}$ Prize in 12th China Graduate Electronics Design Contest (Ranked $2^{nd}$ in more than 100 teams in the final)
+\\\emph{Bachelor of Science in Microelectronics} \hfill \emph{Sep. 2012 -- Jun. 2016}
+\\\bm{$\diamond$} Major GPA: 87.70/100 \qquad Ranking: 8/50 \qquad \ $\diamond$ Overall GPA: 86.27/100
+\\\bm{$\diamond$} Major GPA: 89.30/100(upper division) \qquad \qquad$\diamond$ Overall GPA: 89.13/100(upper division)
+\\\bm{$\diamond$} Received a waiver for the National College Entrance Exam to enter SJTU, as $1^{st}$ Prize in National Olympiad in Physics (Henan Province, top 0.01$\%$)
+\end{comment}
+
+\end{rSection}
+
+\begin{rSection}{Professional Experience}
+\textbf{Shanghai Jiao Tong University, Shanghai} \hfill \emph{Feb. 2017 -- Jun. 2017}
+\\\emph{Teaching Assistant} \hfill \emph {Course Design for Digital Integrated Circuit Design (MR322) }\\
+\begin{rSubsection}{Ctrip Computer Technology Co.,Ltd., Shanghai}{July 2015 -- Dec. 2015}{Software Engineer Intern}{Application Management Group, Ctrip Infrastructure Service}
+\item Developed and improved software tools to enhance site reliability and boost the efficiency of developing products.
+\item \textbf{Constructed ``Alert-Subscribe'', an alert event subscription system}.  \\
+This system will send notifications to users through email or SMS when subscribed alert events happen, so that operation engineers can quickly fetch and fix alert events. Completed the back-end job including obtaining alert events periodically, classifying alert events with RegEx and sending notifications to subscribers.
+\item \textbf{Designed and implemented ``Prometheus'', a web service cluster consumers display platform}. \\
+This project was designed to show the dependency relationships between web service clusters. \\
+Implemented it independently using Django as a back-end framework, Bootstrap as the front-end framework, and MySQL and Redis database to store tasks scheduling queue.
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publication}
+\textbf{Yongming Ding}, Wei Jin, Guanghui He, Weifeng He. ``Short Path Padding with Multiple-Vt cells for Wide-Pulsed-Latch Based Circuits at Ultra-Low Voltage.'' \emph{IEEE International Conference on ASIC}  (2017). Accepted.
+\end{rSection}
+
+\begin{rSection}{Research experience}
+\begin{rSubsection}{Short Path Padding Technique Design}{July 2016 -- present}{Advised by Prof. Weifeng He}{Research Center of Digital Circuit Design \& SoC technology, SJTU}
+\item Designed and implemented a short path padding software system employing integer linear programming method, which supports up to a wide pulse of 1/3 cycle time in pulsed-latch pipelines.
+\item Proposed step-by-step based and path group based schemes to reduce 80.9\% runtime of the baseline padding algorithm and used multiple-Vt buffer cells to reduce additional hardware cost by 52.3\%, on average. 
+\end{rSubsection}
+
+\begin{rSubsection}{Three-dimensional Integrated Circuit(3D IC) Partitioning Technique Design}{Dec. 2015 -- Jun. 2016}{Advised by Prof. Weifeng He}{Research Center of Digital Circuit Design \& SoC technology, SJTU}
+\item Excellent graduate thesis in Department of Micro-Nano Electronics, Shanghai Jiao Tong University.
+\item Designed a 3D-IC partitioning algorithm for motion estimation(ME) module of HEVC, including an initial partition algorithm based on breadth first search and an iterative optimization algorithm. Achieved an optimum partition for the ME module, which reduced 42.9\% of the cut edges while the area utilization rate reached 95.5\%.
+\end{rSubsection}
+
+\begin{rSubsection}{Design and Implementation of a Wearable Vital Signs Monitoring System}{Dec. 2014 -- Mar. 2016}{Advised by Prof. Guoxing Wang}{Bio-Circuits and Systems Lab, SJTU}
+\item Led a group of 4 teammates to design a wearable signs monitoring system that includes respiratory rate, body temperature and blood oxygen saturation monitoring. 
+\item Responsible for the overall system design and implementation of the blood oxygen saturation monitoring module.
+\item Programmed an embedded system to convert the PPG signal into oxygen saturation value and transfer data to mobile devices through Bluetooth.
+\end{rSubsection}
+
+\begin{rSubsection}{FPGA Design of FastICA Algorithm for On-line EEG Signal Separation}{Oct. 2013 -- Nov. 2014}{Advised by Prof. Jiang Jiang}{Lab of Embedded Architecture, SJTU}
+\item Led a group of 4 teammates to implement an on-line EEG signal separation system on FPGA using FastICA algorithm, which aims to evaluate human's fatigue degree.
+\item Took charge of testing and verifying the FastICA algorithm on MATLAB and then implementing it on FPGA. 
+\item The FPGA implementation greatly reduced the computation time, at least 40 times faster than software.
+\end{rSubsection}
+\end{rSection}
+
+
+\begin{rSection}{Selected Projects}
+\begin{rSubsection}{Emotion Recognition Based on EEG Signal}{Nov. 2017}{}{}
+\item Employed machine learning methods to solve the emotion recognition three classification problem based on Emotion EEG Dataset published by Brain-like Computing and Machine Intelligence Lab at SJTU.
+\item The highest classification accuracy was 81\% using linear regression, while a 3-layers CNN achieved 79\% and LSTM model reached 74\% classification accuracy respectively.
+\end{rSubsection}
+
+%\newpage
+\begin{rSubsection}{Image Super-Resolution Using Convolutional Neural Network(CNN)}{July 2017}{Advised by Prof. Haibao Chen}{Innovative Computer Architecture Technology Lab, SJTU}
+\item Applied deep learning techniques to sharpen or improve the quality of low-resolution images.
+\item Proposed a 7-layers CNN which got lower loss value and reduced 10\% training time, compared with ``waifu2x'', an open source image super-resolution software.
+\end{rSubsection}
+
+\begin{rSubsection}{``Eye of Providence'', an Intelligent Monitoring System}{May 2017}{}{}
+\item Led a group of 4 teammates to build an intelligent classroom monitoring system using face recognition, facial expression detection and speech identification techniques during ``Hackathon SJTU 2017''.
+\end{rSubsection}
+
+\begin{comment}
+\begin{rSubsection}{Design and Realization of 5-stage-pipeline MIPS processor}{Nov. 2014}{Advised by Prof. Yongxin Zhu}{Lab of Embedded Architecture, SJTU}
+\item Acted as a team leader and took charge of the module design and Verilog HDL code implementation. 
+\item Resolved data hazards using forwarding and implemented dynamic branch prediction to deal with control hazards.
+\end{rSubsection}
+\end{comment}
+
+\begin{rSubsection}{``Yorozuya'', a Campus Labor and Information Exchange Platform}{Nov. 2014}{}{}
+\item Developed a web application for campus users to exchange labor and information in ``Hackathon SJTU 2014'' 
+\item Users can release tasks on this app while the others can choose and finish jobs for reward.
+\end{rSubsection}
+
+
+\end{rSection}
+
+
+\begin{rSection}{HONORS and AWARDS}
+Tang Youshu Scholarship, Shanghai Jiaotong University (4 recipients out of 116 students) \hfill \emph{2017}
+\\$3^{rd}$ Prize in National Post-Graduate Mathematic Contest in Modeling \hfill \emph{2017}
+\\First-class Academic Graduate Student Scholarship, Shanghai Jiao Tong University  \hfill \emph{2016}
+\\The Best Creative Award, Shanghai Jiaotong University Hackathon \hfill \emph{2015}
+\\Scholarship of Academic Excellence, Shanghai Jiao Tong University \hfill \emph{2014 \& 2013}
+\\Outstanding Student, Shanghai Jiao Tong University \hfill \emph{2014 \& 2013}
+\\$2^{nd}$ Prize in Shanghai Region, National College Student Physics Competition \hfill \emph{2013}
+\end{rSection}
+
+\begin{rSection}{extracurricular activities}
+Director of liaison department of micro-electronic school student union \hfill \emph{Sep. 2013 - Sep. 2014}
+\\Class commissary in charge of studies  \hfill \emph{Sep. 2012 - June. 2016}
+\end{rSection}
+
+\begin{rSection}{Skills and Interests}
+\begin{tabular}{ll}
+\textbf{Programming \quad} & Python, C/C++, JAVA, Javascript, HTML/CSS, SQL, MATLAB, Verilog HDL\\
+\textbf{Technologies} & TensorFlow, Django, Scikit-learn, Bootstrap, MySQL, FPGA, Redis\\
+%\textbf{Software} & Cadence, Design Compiler, IC Compiler, HSPICE, Vivado, ModelSim, ISE\\
+%\textbf{Languages} & iBT TOEFL: Total 105 (Reading 30/Listening 26/Speaking 22/Writing 27)\\
+\textbf{Interests} & Photography, Swimming, Post-rock, Table Tennis, Cycling\\
+\end{tabular}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
