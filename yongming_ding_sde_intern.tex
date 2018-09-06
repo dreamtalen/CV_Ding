@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume_ucla} % Use the custom resume.cls style
+\usepackage{verbatim}
+\usepackage[left=0.6in, top=0.6in, right=0.6in, bottom=0.4in]{geometry} % Document margins
+\usepackage[cmex10]{amsmath}
+
+\name{Yongming Ding} % Your name
+\address{ (+1) 412-209-5646 \ \\ yongmind@andrew.cmu.edu \ \\ www.linkedin.com/in/yongming-ding/}
+%\address{Github: https://github.com/dreamtalen/} % Your address
+\address{5030 Centre Ave, Room 255 \\ Pittsburgh, PA 15213} % Your secondary addess (optional)
+ % Your phone number and email
+
+
+\begin{document}
+%---------------------------------------------------------------------------------------- 
+
+\begin{rSection}{education}
+\begin{rSubsection}{Carnegie Mellon University - Information Networking Institute}{Pittsburgh, PA}{Master's of Science in  Information Technology (Mobility)}{Aug. 2018 -- May. 2020 (expected)}
+\item GPA: N/A \qquad Scholarship: INI Scholarship
+\item Coursework(*current): Introduction to Computer System (A), Web Application Development*, Storage Systems*
+\end{rSubsection}
+\begin{rSubsection}{Shanghai Jiao Tong University}{Shanghai, China}{Master of Science in Electronic Science and Technology}{Sep. 2016 -- Mar. 2019 (expected)}
+\item Major GPA: 3.86/4.00 \qquad Ranking: 8/116 \qquad $\diamond$ Overall GPA: 3.72/4.00
+\item $1^{st}$ Prize in 12th China Graduate Electronics Design Contest (Ranked $2^{nd}$ in more than 100 teams in the final)
+\item 2017 Tang Youshu Scholarship, Shanghai Jiaotong University (4 recipients out of 116 students)
+
+\end{rSubsection}
+\begin{rSubsection}{Shanghai Jiao Tong University}{Shanghai, China}{Bachelor of Science in Microelectronics}{Sep. 2012 -- Jun. 2016}
+\item Major GPA: 3.77/100 \qquad Ranking: 8/50 \qquad \ $\diamond$ Overall GPA: 3.57/100
+\item 2013 \& 2014 Scholarship of Academic Excellence (Top 30\%), Shanghai Jiao Tong University
+\item 2013 \& 2014 Outstanding Student, Shanghai Jiao Tong University 
+\item $2^{nd}$ Prize in Shanghai Region, 2013 National College Student Physics Competition
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Skills}
+\begin{tabular}{ll}
+\textbf{Technical \quad} & Python, C/C++, Django, Bootstrap, HTML/CSS, SQL, Javascript, Vue\\
+\textbf{Certificates} & Senior skill level computer programmer (JAVA \& ARM), China occupational qualification certificates\\ 
+\end{tabular}
+\end{rSection}
+
+
+
+\begin{rSection}{Professional Experience}
+
+\begin{rSubsection}{Tencent Technology Co., Ltd.}{Shanghai, China}{Software Engineering Intern}{Apr. 2018 -- June 2018}
+\item Participated in developing the lung cancer intelligent screening system, which achieved 95\% detection rate. 
+\item Responsibilities include screening platform full-stack web development using Django, Vue, and MySQL, debugging, and deployment with Nginx at Fudan University Shanghai Cancer Center. 
+\end{rSubsection}
+
+\begin{rSubsection}{Ctrip Computer Technology Co., Ltd.}{Shanghai, China}{Software Engineering Intern}{July 2015 -- Dec. 2015}
+\item Constructed ``Alert-Subscribe'', an alert event subscription system helping operation engineers fix alert events. 
+\\ Completed the back-end job including obtaining alert events, classifying with RegEx and sending notifications.
+\item Built ``Prometheus'', a web service cluster consumers display platform to show the dependency relationships between clusters. Implemented it independently using Django, Bootstrap, MySQL and Redis.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience \& Projects}
+\begin{rSubsection}{C Dynamic Storage Allocator @ CMU ICS course Malloc lab}{July 2018}{}{}
+\item Implemented a general purpose dynamic storage allocator for C programs using segregated free list with FIFO strategy. Built own version of the \emph{malloc}, \emph{free}, \emph{realloc}, and \emph{calloc} C functions. 
+\item By eliminating footers in allocated blocks, decreasing the minimum block size, and setting up special regions of memory for small, fixed-size blocks, achieved a high throughout 16838 Kpos/sec with 71.4\% memory utilization.
+\end{rSubsection}
+
+\begin{rSubsection}{``Eye of Providence'', an Intelligent Monitoring System}{May 2017}{}{}
+\item Led a group of 4 teammates to build an intelligent classroom monitoring system using face recognition, facial expression detection and speech identification techniques during ``Hackathon SJTU 2017''.
+\end{rSubsection}
+
+\begin{rSubsection}{Short Path Padding Technique Design}{July 2016 -- Nov. 2017}{}{}
+\item Designed and implemented a short path padding software employing integer linear programming method, which supports up to a wide pulse of 1/3 cycle time in pulsed-latch pipelines. Proposed step-by-step based and path group based schemes to reduce 80.9\% runtime of the algorithm and used multiple-Vt cells to reduce 52.3\% hardware cost.
+\item \textbf{Publication}: Yongming Ding, Wei Jin, Guanghui He, Weifeng He.  ``Short Path Padding with Multiple-Vt cells for Wide-Pulsed-Latch Based Circuits at Ultra-Low Voltage.'' \emph{IEEE International Conference on ASIC}  (2017).
+\end{rSubsection}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
